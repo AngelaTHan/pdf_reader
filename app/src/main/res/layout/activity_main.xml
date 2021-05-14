@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        >
+
+    <LinearLayout
+            android:id="@+id/pdfLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+        <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:theme="@android:style/Theme.Light"
+                android:minHeight="?attr/actionBarSize"
+                android:id="@+id/toolbar">
+
+            <Space
+                    android:layout_width="50dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1">
+            </Space>
+
+            <TextView
+                    android:text="File Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/filename"
+                    android:textSize="24sp"/>
+
+            <Space
+                    android:layout_width="150dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/undo"
+                    android:button="@null"
+                    android:background="@drawable/undo"/>
+
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/redo"
+                    android:button="@null"
+                    android:background="@drawable/redo"/>
+
+            <Space
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/pen"
+                    android:button="@null"
+                    android:background="@drawable/pen"/>
+
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/marker"
+                    android:button="@null"
+                    android:background="@drawable/marker"/>
+
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/eraser"
+                    android:button="@null"
+                    android:background="@drawable/eraser"/>
+
+            <Space
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/previous"
+                    android:button="@null"
+                    android:background="@drawable/left"/>
+
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/next"
+                    android:button="@null"
+                    android:background="@drawable/right"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

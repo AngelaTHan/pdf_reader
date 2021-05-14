@@ -1,0 +1,4 @@
+#Sat Dec 05 09:47:52 EST 2020
+base.0=/Users/jaffe/Downloads/pdf_reader/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
